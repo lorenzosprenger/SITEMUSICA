@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+    --cor-primaria: red;
+    --cor-segundaria: rgb(63, 54, 54);
+    --cor-terciaria: white;
+    --cor-quartearia: #ffd700;
+}
+
+.cabecalho {
+    width: 100vw;
+    padding: 2% 0% 0% 0%;
+    color: var(--cor-terciaria);
+    background-color: gray;
+
+}
+
+.cabecalho__pai {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2% 0 1%;
+}
+
+.cabecalho__pai__lvs {
+    color: var(--cor-quartearia);
+    font-size: 4rem;
+}
+
+.cabecalho__pai__logo {
+    height: 7rem;
+
+}
+
+.cabecalho__pai__playlist{
+    color: var(--cor-quartearia);
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.imgmusic{
+    width: 100vw;
+    height: 60vh;
+    border-radius: 3%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.navbar__nome {
+    font-weight: bold;
+    margin-left: 2%;
+    width: 13%;
+    
+}
+
+.navbar__botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__botao {
+    margin-left:3%;
+    margin-right:10%;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.navbar__botao img {
+    width: 24px;
+    height: 24px;
+}
+
+.navbar__volume {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.navbar__volume img{
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+}
+
+.navbar__volume input[type="range"] {
+    width: 100px;
+}
+
+.organiza{
+    display: flex;
+    justify-content: space-around;
+}
+.organiza__musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    
+    
+}
+
+
+.organiza__musica__separa{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-segundaria);
+    align-items: center;
+    text-decoration: none;
+    width: 45vw;
+    padding-left: 5vw;
+}
+
+
+.nomemusica{
+    color: var(--cor-primaria);
+    
+}
+
+.organiza__musica__separa__img{
+    width: 30%;
+    height: 20vh;
+}

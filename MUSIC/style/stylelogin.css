@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+    --cor-primaria: red;
+    --cor-segundaria: rgb(0, 0, 0);
+    --cor-terciaria: white;
+    --cor-quartearia: #ffd700;
+}
+header{
+    background-color: gray;
+    width: 1000%;
+}
+
+
+.cabecalho {
+    width: 100%;
+    padding: 2% 0% 0% 0%;
+    color: var(--cor-terciaria);
+}
+
+.cabecalho__pai {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2% 0 1%;
+}
+
+.cabecalho__pai__lvs {
+    color: var(--cor-quartearia);
+    font-size: 4rem;
+}
+
+.cabecalho__pai__logo {
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+
+}
+
+body{
+    
+    background: linear-gradient(to bottom, black, gray);
+
+}
+section {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4%;
+    margin-top: 3%;
+  }
+
+.textinicio{
+    color: var(--cor-terciaria);
+}
+.iphone {
+    background-color: var(--cor-quartearia);
+    padding: 1%;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5.5%;
+}
+
+#name,
+#email,
+#telefone,
+#senha,
+#confirmasenha,
+#senha,
+#confirmasenha {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+
+
+}
+
+#botao:hover {
+    background-color: #808080;
+
+}
+
+#botao {
+    width: 100%;
+    height: 50px;
+}
+
+.nome,
+.email,
+.telefone,
+.senha,
+.confirmasenha {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+footer{
+    position: fixed;
+    background-color: gray;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.textfooter{
+    color: var(--cor-segundaria);
+}
